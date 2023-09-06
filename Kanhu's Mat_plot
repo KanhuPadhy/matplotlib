@@ -1,0 +1,8 @@
+if exist ('radius') 
+R= radius ;
+else 
+R= 1;
+end 
+t=linspace(0.2*pi,100);
+x=R*cos(t); y=R*sin(t);
+
